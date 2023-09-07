@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/form.css">
+ 
+  <title>Customer Information</title>
+  
+   
+<body>
+    <div class="box">
+      <section class="container">
+       
+        <div class="left-half">
+          <article>
+            <!-- <h1>Left Half</h1>
+            <p>Weekends don't count unless you spend them doing something completely pointless.</p> -->
+          </article>
+        </div>
+        <div class="right-half">           
+          
+          <div class="card">
+            <div class="card-body">
+              <img src="./assets/img/dochase.png" alt="dochase-logo">
+              <form 
+              method="post"
+              action="https://api.sheetmonkey.io/form/9x1mRzjEC5Wjgp5sJNvLo"
+              id="my-form"
+             >
+                <div class="">
+                  <h1>CUSTOMER INFORMATION FORM</h1>
+                  <p>Please take a few minutes to fill out the form, we'd love to get started!.</p>
+                  
+                  <label for="name"><b>First name</b> </label>
+                  <input name="first_name" type="text" required>
+
+                  <label for="name"><b>Last name</b> </label>
+                  <input name="last_name" type="text" required>
+              
+                  <label for="email"><b>Work Email</b> </label>
+                  <input name="email" type="email" required>
+              
+                  <label for="tel"><b>Work Phone Number</b> </label>
+                  <input name="tel" type="tel" required>
+    
+                  <label for="Company"><b>Company</b> </label>
+                  <input name="company" type="text"  required>
+    
+                  <label for="Country"><b>Country</b></label>
+                  <input name="country" type="text"  required>
+
+                  <!-- <label for="indus"><b>Industry</b> </label><br>
+                  <select required id="indus" name="industry" >
+                    <option value="indusrty" ></option>
+                    <option value="tech">Agriculture</option>
+                    <option value="advert">Advertising</option>
+                    <option value="E-commerce">E-commerce</option>
+                    <option value="others">Entertainment</option>
+                    <option value="others">Engineering</option>
+                    <option value="">FMCG</option>
+                    <option value="others">Fintech</option>
+                    <option value="others">Health care</option>
+                    <option value="others">Informations and technology</option>
+                    <option value="others">Investment</option>\
+                    <option value="others">Real Estate</option>
+                    <option value="others">Technology</option>
+                    <option value="others">Others</option>                  
+                  </select> -->
+                  <label for="cars" class="industry"><b>Industry:</b> </label>
+                  <select name="industry" id="indus" required>
+                    <option value="">Choose an option</option>
+                    <option value="Agriculture">Agriculture</option>
+                    <option value="Advertising">Advertising</option
+                      <option value="Digital Marketing">Digital Marketing</option>
+                    <option value="Education">Education</option>
+                    <option value="E-commerce">E-commerce</option>
+                    <option value="Engineering">Engineering</option>
+                    <option value="Fintechi">Fintech</option>
+                    <option value="Fmcg">FMCG</option>
+                    <option value="Health">Health Care</option>
+                    <option value="Information and technology">Information and technology</option>
+                    <option value="Real Estate">Real Estate</option>
+                    <option value="others">Others</option>
+
+                  </select>     
+
+                  <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+
+                  
+                  <input 
+    type="hidden" 
+    name="x-sheetmonkey-redirect" 
+    value="https://dochaseadx.com/success.html" 
+/>
+              
+              
+                  <div class="">
+                    <button  class="btn" id="myBtn" onclick="return Validate()">Submit</button>
+                  </div>
+              </form>
+            </div>
+            <!-- <div class="footer">
+              <span>2023 © Dochase Adx. All Rights Reserved</span>
+            </div> -->
+          </div>
+        </div>
+      
+        </div>
+      </section>
+    </div>
+
+</body>
+
+
+</html>
